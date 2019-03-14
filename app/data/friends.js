@@ -1,8 +1,8 @@
-var surveyArray = [
-{
-    "name":"Ahmed",
-    "photo":"https://github.com/gregoryschmidt/responsive-portfolio/blob/master/assets/images/goodmug1.jpg",
-    "scores":[
+var friendsArray = [
+  {
+    name:"Gregory",
+    photo:"https://placekitten.com/200/200",
+    scores:[
         5,
         1,
         4,
@@ -14,7 +14,75 @@ var surveyArray = [
         4,
         1
       ]
+  },
+
+  {
+    name:"Sally",
+    photo:"https://placekitten.com/200/200",
+    scores:[
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+  },
+  
+  {
+    name:"Sally",
+    photo:"https://placekitten.com/200/200",
+    scores:[
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+  },  
+
+  {
+    name:"Squi",
+    photo:"https://placekitten.com/200/200",
+    scores:[
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+  },
+  
+  {
+    name:"Nancy",
+    photo:"https://placekitten.com/200/200",
+    scores:[
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
   }
 ];
 
-module.exports = surveyArray;
+module.exports = friendsArray;
