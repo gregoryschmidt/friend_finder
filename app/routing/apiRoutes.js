@@ -11,7 +11,7 @@ module.exports = function (app) {
 app.post('/api/friends', function(req, res) {
   // Capture the user input object
   var userInput = req.body;
-  console.log('userInput = ' + JSON.stringify(userInput));
+  // console.log('userInput = ' + JSON.stringify(userInput));
 
   var userResponses = userInput.scores;
   // console.log('userResponses = ' + userResponses);
@@ -25,7 +25,7 @@ app.post('/api/friends', function(req, res) {
   for (var i = 0; i < friends.length; i++) {
     // console.log('friend = ' + JSON.stringify(friends[i]));
 
-    // Compute differenes for each question
+    // Compute differences for each question
     var diff = 0;
     for (var j = 0; j < userResponses.length; j++) {
       diff += Math.abs(friends[i].scores[j] - userResponses[j]);
